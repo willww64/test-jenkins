@@ -4,6 +4,8 @@ pipeline {
 
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+        string(name: '环境', defaultValue: 'dev', description: 'environment')
+        string(name: 'environment', defaultValue: 'dev', description: '环境')
 
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
 
