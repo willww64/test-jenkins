@@ -1,0 +1,4 @@
+// Jenkinsfile
+@Library('even-or-odd') _
+
+evenOrOdd(currentBuild.getNumber())
