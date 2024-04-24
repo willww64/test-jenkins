@@ -1,0 +1,9 @@
+// Jenkinsfile
+@Library('even-or-odd') _
+
+easyPipeline {
+   branch = master
+   scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
+   email = 'foo@example.com'
+   serverPort = '8080'
+}
