@@ -7,5 +7,5 @@ easyPipeline {
    email = 'foo@example.com'
    serverPort = '8080'
 
-   osConfiguration = [osConfiguration: [OS_VERSION: "22.04", DIR_TYPE: "I don't know"]]
+   osConfiguration = [OS_VERSION: "22.04", DIR_TYPE: "I don't know"]
 }
